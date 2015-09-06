@@ -1,4 +1,4 @@
-typed-events
+typed-events [![Build Status](https://travis-ci.org/weswigham/typed-events.svg)](https://travis-ci.org/weswigham/typed-events)
 ============
 
 TypeScript typings for the core events library
