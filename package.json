@@ -4,7 +4,7 @@
   "description": "TypeScript typings for the core events library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc test/test.ts --module commonjs"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/weswigham/typed-events/issues"
   },
-  "homepage": "https://github.com/weswigham/typed-events#readme"
+  "homepage": "https://github.com/weswigham/typed-events#readme",
+  "devDependencies": {
+    "typescript": "^1.6.0-beta"
+  }
 }

@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+node_js:
+- node
+- iojs
+deploy:
+  provider: npm
+  email: wwigham@gmail.com
+  api_key:
+    secure: eZoWlXUhB21FIYsopOnrKE6v/L9kxXiQpos5IxfQkmKvspJQiGlVrQy5jDDNAzCU7/BeUOkBw2MrPVRWq+gEn46L5imaoIfv1ttqcsjiizVStsy00Df7WGlU9wdgUlRH92rUrhElln5DuVV7cL6LTr/a5mopwKg7s4nAgJySr34s8ZiZfzoLYzu0YjdfxUmZfe3zkmaeEdZ17IrN8OQpFn2+68Ec6ar/o3U9NXh63jLf23yYWJKt4GawCpZIwr6j29J7ByPIIMbvCTshRALmil8Xo2Kdqg6IPJm3Z8bcogbNLFWb2LUpfp60ZWH2raqadaglDDELl+gri0qlKWdv2Zt0dUjmBZEuL2qb2SPzNF476MEyMt722YmvaCte+Yf/DqKkbtEWI65U5yA/afhnj0C3Cs7KUtWB0FBB/riyRvGWUas+7c7MmzHAJVbWnG34tSYRV63ggxSjNv6gsMVrZfmjFNsQ09J1wjOXyHuwq+N1Y1UsbFKiVQBjPTamDGGw42hlhapjkPsHMYblvu+YMI/PB5Up9ap2piOtOSv8lBFEgLM3a6JREkTJYM4Ibfdurqi8ZaQfs5CVANxk89qUB59rX7lA5EcFr9kt47BXG41mfqGzoBZU7jIeUuSa9SaqtsZQQQbAdKbHKt0AlEtAxQlti92p/12ADqLOQ6TITU0=
+  on:
+    tags: true
+    repo: weswigham/typed-events
