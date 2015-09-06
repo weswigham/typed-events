@@ -1,6 +1,6 @@
 {
   "name": "typed-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript typings for the core events library",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/weswigham/typed-events#readme",
   "dependencies": {
-    "typed-node": "1.0.0"
+    "typed-node": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^1.6.0-beta"

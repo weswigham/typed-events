@@ -1,5 +1,9 @@
 import * as events from "../index";
 
-class Emitter extends events.EventEmitter {
+class Networker extends events.EventEmitter {
+    constructor() {
+        super();
 
+        this.emit("mingling");
+    }
 }
