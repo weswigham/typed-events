@@ -1,3 +1,4 @@
+import "typed-node";
 export class EventEmitter implements EventEmitter {
 	static listenerCount(emitter: EventEmitter, event: string): number;
 
